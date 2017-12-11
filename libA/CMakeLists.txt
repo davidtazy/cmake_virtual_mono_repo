@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.3)
 
 project(libA)
 
-message("************* ${CMAKE_MAKE_PROGRAM} ****************")
-
 import(libB)
 
 add_library(libA libA.h libA.cpp)
