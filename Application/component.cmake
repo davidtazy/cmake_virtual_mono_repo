@@ -1,2 +1,2 @@
-declare_component(Application)
+declare_target(Application)
 

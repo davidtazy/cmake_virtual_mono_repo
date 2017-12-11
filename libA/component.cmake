@@ -1,2 +1,2 @@
-declare_component(libA)
+declare_target(libA)
 

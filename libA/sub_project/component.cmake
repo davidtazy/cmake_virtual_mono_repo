@@ -1,2 +1,2 @@
-declare_component(libAA)
+declare_target(libAA)
 
