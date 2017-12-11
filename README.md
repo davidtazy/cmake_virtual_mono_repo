@@ -19,7 +19,7 @@ include(mono_repo)
 load_all_components()
 ```
 
-for each CMakeLists.txt in your source tree
+* for each CMakeLists.txt in your source tree
     * create a file named component.cmake
     * for each __target__ created in CMakeLists.txt
         * append "declare_target(__target__)"
