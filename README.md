@@ -20,10 +20,11 @@ load_all_components()
 ```
 
 * for each CMakeLists.txt in your source tree
+    * use import(__dependency__) for each dependency u need (before target_link_libraries(__target__ __dependency__) )
     * create a file named component.cmake
     * for each __target__ created in CMakeLists.txt
         * append "declare_target(__target__)"
 
 open CMakeCache.txt
-select any all_XXX_enabled
+select any __all_XXX_enabled__
 this will add target XXX in build tree and all its dependencies.
